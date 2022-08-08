@@ -17,7 +17,7 @@ const ExpenseList = props => {
           amount={expense.amount}
           date={expense.date}
         />
-      ))}
+      ))};
     </ul>
   );
 };
